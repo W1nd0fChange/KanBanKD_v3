@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Проработка коммерции</title>
+  <link rel="stylesheet" href="/static/app.css">
+</head>
+<body>
+  <header class="top">
+    <div class="plan">
+      <span class="plan-swatch" aria-hidden="true"></span>
+      <div>
+        <div class="plan-name">Проработка коммерции</div>
+        <div class="plan-sub">Отдел сопровождения · BuyerPro</div>
+      </div>
+    </div>
+    <nav class="views" aria-label="Представления">
+      <button class="view is-active" type="button">Доска</button>
+    </nav>
+    <div class="share" id="share" hidden title="Откроется у коллег в той же сети, пока этот компьютер держит доску">
+      <span class="share-label">Для коллег</span>
+      <a id="shareLink" href="" target="_blank" rel="noreferrer"></a>
+    </div>
+    <div class="db-state" id="dbState" title="Запись тикета в DGDWH">
+      <span class="db-dot"></span>
+      <span class="db-label">База</span>
+    </div>
+  </header>
+
+  <div class="toolbar">
+    <div class="filters">
+      <div class="menu">
+        <button type="button" class="picker" id="statusButton">Статус: В работе</button>
+        <div class="menu-list" id="statusList" hidden>
+          <button type="button" data-status="work">В работе</button>
+          <button type="button" data-status="Выполняется">Выполняется</button>
+          <button type="button" data-status="Пауза">Пауза</button>
+          <button type="button" data-status="Выполнено">Выполнено</button>
+          <button type="button" data-status="Отменено">Отменено</button>
+        </div>
+      </div>
+      <div class="menu">
+        <button type="button" class="picker" id="directorateButton">Дирекция: все</button>
+        <div class="menu-list" id="directorateList" hidden>
+          <button type="button" data-directorate="">Все</button>
+        </div>
+      </div>
+      <div class="menu">
+        <button type="button" class="picker" id="taskTypeButton">Тип: все</button>
+        <div class="menu-list" id="taskTypeList" hidden>
+          <button type="button" data-task-type="">Все</button>
+        </div>
+      </div>
+      <div class="menu">
+        <button type="button" class="picker" id="complexityButton">Сложность: все</button>
+        <div class="menu-list" id="complexityList" hidden>
+          <button type="button" data-complexity="">Все</button>
+        </div>
+      </div>
+      <button type="button" class="chip-accent" id="doneByDirectorate">Все задачи списком</button>
+    </div>
+  </div>
+
+  <main class="board" id="board"></main>
+
+  <div class="scrim" id="scrim" hidden></div>
+  <aside class="pane" id="pane" hidden aria-label="Карточка задачи"></aside>
+  <div class="ask" id="ask" hidden>
+    <form class="ask-card" id="askForm">
+      <div class="ask-title">Отмена задачи</div>
+      <p class="ask-text">Комментарий необязателен. Комментарий работы и комментарий лида останутся как были.</p>
+      <label class="ask-label" for="askComment">Комментарий отмены</label>
+      <textarea id="askComment" maxlength="500" placeholder="Можно оставить пустым"></textarea>
+      <div class="form-error" id="askError"></div>
+      <div class="pane-actions">
+        <button class="primary" type="submit">Отменить задачу</button>
+        <button class="ghost" type="button" id="askAbort">Не отменять</button>
+      </div>
+    </form>
+  </div>
+  <div class="ask" id="closeAsk" hidden>
+    <form class="ask-card" id="closeForm">
+      <div class="ask-title">Закрытие задачи</div>
+      <p class="ask-text">Укажите номер документа. Он запишется вместе со статусом «Выполнено».</p>
+      <label class="ask-label" for="closeNumber">Номер документа</label>
+      <input id="closeNumber" maxlength="100" autocomplete="off" required>
+      <div class="form-error" id="closeError"></div>
+      <div class="pane-actions">
+        <button class="primary" type="submit">Выполнить</button>
+        <button class="ghost" type="button" id="closeAbort">Не закрывать</button>
+      </div>
+    </form>
+  </div>
+  <div class="toast" id="toast" role="status"></div>
+
+  <script src="/static/app.js?v=20261117-view"></script>
+</body>
+</html>

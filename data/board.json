@@ -1,0 +1,213 @@
+{
+  "columns": [
+    {
+      "id": "e25f9257642f4ea394c409aabfc9b2b8",
+      "name": "Деев Г.Д.",
+      "hidden": false
+    },
+    {
+      "id": "6261d0ec18824013995795e02680f247",
+      "name": "Деев Г.Д, 2",
+      "hidden": false
+    }
+  ],
+  "tickets": [
+    {
+      "id": "ab5eb8ffa9f24d5d85fe90817b719db3",
+      "bp_number": "23.1",
+      "teo_number": null,
+      "zip_number": null,
+      "zpkd_number": null,
+      "exact_number": null,
+      "task_type": "Предложение",
+      "directorate": "D11 UNDE",
+      "row_count": 2000,
+      "complexity": "среднее",
+      "file_name": "IN-000000612_ЖСН.xlsx",
+      "stored_file": "8c36eca26e2441a79a09efbfc73af70c.xlsx",
+      "comment": "123",
+      "lead_comment": "5432",
+      "cancel_comment": null,
+      "document_number": "23.1",
+      "started_at": "2026-11-13T09:21:01+00:00",
+      "finished_at": "2026-11-13T09:21:24+00:00",
+      "status": "Выполнено",
+      "column_id": "e25f9257642f4ea394c409aabfc9b2b8",
+      "journal": [
+        {
+          "at": "2026-11-13T09:20:51+00:00",
+          "status_from": null,
+          "status_to": "Создано",
+          "assignee_from": null,
+          "assignee_to": null,
+          "cancel_comment": null,
+          "user_id": null,
+          "user_name": null,
+          "user_position": null
+        },
+        {
+          "at": "2026-11-13T09:21:01+00:00",
+          "status_from": "Создано",
+          "status_to": "Назначен отв.",
+          "assignee_from": null,
+          "assignee_to": "Деев Г.Д.",
+          "cancel_comment": null,
+          "user_id": null,
+          "user_name": null,
+          "user_position": null
+        },
+        {
+          "at": "2026-11-13T09:21:24+00:00",
+          "status_from": "Назначен отв.",
+          "status_to": "Выполнено",
+          "assignee_from": "Деев Г.Д.",
+          "assignee_to": "Деев Г.Д.",
+          "cancel_comment": null,
+          "user_id": null,
+          "user_name": null,
+          "user_position": null
+        }
+      ],
+      "created_at": "2026-11-13T09:20:51+00:00",
+      "updated_at": "2026-11-13T09:21:24+00:00",
+      "record_id": 1
+    },
+    {
+      "id": "221ccff81c2d4d1a9edcf803d159bc37",
+      "bp_number": null,
+      "teo_number": null,
+      "zip_number": null,
+      "zpkd_number": null,
+      "exact_number": null,
+      "task_type": "ТЭО",
+      "directorate": "D11 UNDE",
+      "row_count": 2000,
+      "complexity": "сложное",
+      "file_name": "Справочник.xlsx",
+      "stored_file": "a3eb3700adb049ee85d2d82f43fb54b0.xlsx",
+      "comment": "42",
+      "lead_comment": "43",
+      "cancel_comment": null,
+      "document_number": null,
+      "started_at": "2026-11-13T09:22:42+00:00",
+      "finished_at": null,
+      "status": "Назначен отв.",
+      "column_id": "6261d0ec18824013995795e02680f247",
+      "journal": [
+        {
+          "at": "2026-11-13T09:22:31+00:00",
+          "status_from": null,
+          "status_to": "Создано",
+          "assignee_from": null,
+          "assignee_to": null,
+          "cancel_comment": null,
+          "user_id": null,
+          "user_name": null,
+          "user_position": null
+        },
+        {
+          "at": "2026-11-13T09:22:42+00:00",
+          "status_from": "Создано",
+          "status_to": "Назначен отв.",
+          "assignee_from": null,
+          "assignee_to": "Деев Г.Д, 2",
+          "cancel_comment": null,
+          "user_id": null,
+          "user_name": null,
+          "user_position": null
+        }
+      ],
+      "created_at": "2026-11-13T09:22:31+00:00",
+      "updated_at": "2026-11-13T09:22:42+00:00",
+      "record_id": 2
+    },
+    {
+      "id": "87db36b242d445c6a3a7bb228d103d40",
+      "bp_number": null,
+      "teo_number": null,
+      "zip_number": null,
+      "zpkd_number": null,
+      "exact_number": null,
+      "task_type": "Предложение",
+      "directorate": "D1 CASUAL",
+      "row_count": 4432,
+      "complexity": "легкое",
+      "file_name": "IN-000000612_ЖСН.xlsx",
+      "stored_file": "a93bc8922a1c45ffb45a5a251626ec16.xlsx",
+      "comment": "тест",
+      "lead_comment": "тест2",
+      "cancel_comment": null,
+      "document_number": null,
+      "started_at": null,
+      "finished_at": null,
+      "status": "Создано",
+      "column_id": null,
+      "journal": [
+        {
+          "at": "2026-11-13T09:23:03+00:00",
+          "status_from": null,
+          "status_to": "Создано",
+          "assignee_from": null,
+          "assignee_to": null,
+          "cancel_comment": null,
+          "user_id": null,
+          "user_name": null,
+          "user_position": null
+        }
+      ],
+      "created_at": "2026-11-13T09:23:03+00:00",
+      "updated_at": "2026-11-13T09:23:03+00:00",
+      "record_id": 3
+    },
+    {
+      "id": "490da8cef4e544249f8c1d099938c3b3",
+      "bp_number": null,
+      "teo_number": null,
+      "zip_number": null,
+      "zpkd_number": null,
+      "exact_number": null,
+      "task_type": "Предложение",
+      "directorate": "D3 FORMA",
+      "row_count": 2000,
+      "complexity": "легкое",
+      "file_name": "IN-000000612_ЖСН.xlsx",
+      "stored_file": "5c2b356af8214488b6e5c1234ce3ca83.xlsx",
+      "comment": "333",
+      "lead_comment": "333",
+      "cancel_comment": null,
+      "document_number": null,
+      "started_at": "2026-11-13T09:23:23+00:00",
+      "finished_at": null,
+      "status": "Назначен отв.",
+      "column_id": "e25f9257642f4ea394c409aabfc9b2b8",
+      "journal": [
+        {
+          "at": "2026-11-13T09:23:22+00:00",
+          "status_from": null,
+          "status_to": "Создано",
+          "assignee_from": null,
+          "assignee_to": null,
+          "cancel_comment": null,
+          "user_id": null,
+          "user_name": null,
+          "user_position": null
+        },
+        {
+          "at": "2026-11-13T09:23:23+00:00",
+          "status_from": "Создано",
+          "status_to": "Назначен отв.",
+          "assignee_from": null,
+          "assignee_to": "Деев Г.Д.",
+          "cancel_comment": null,
+          "user_id": null,
+          "user_name": null,
+          "user_position": null
+        }
+      ],
+      "created_at": "2026-11-13T09:23:22+00:00",
+      "updated_at": "2026-11-13T09:23:23+00:00",
+      "record_id": 4
+    }
+  ],
+  "next_record_id": 5
+}
